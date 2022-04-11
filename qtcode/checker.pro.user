@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-04-10T13:10:39. -->
+<!-- Written by QtCreator 6.0.2, 2022-04-11T22:53:07. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -240,8 +240,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/ASUS/Desktop/qtcode/checker.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/ASUS/Desktop/qtcode/checker.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">checker2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/QtDemo/checker(1)/checker.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/QtDemo/checker(1)/checker.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
