@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>blue.png</file>
+        <file>red.png</file>
+        <file>background.png</file>
+        <file>mapp.ico</file>
+        <file>green.png</file>
+        <file>orange.png</file>
+        <file>pink.png</file>
+        <file>purple.png</file>
+    </qresource>
+</RCC>
