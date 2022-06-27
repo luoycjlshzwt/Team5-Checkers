@@ -118,13 +118,14 @@ private:
     //stage3
     bool ispass[17][17];
     QList<int> way,aipath;
-    int val,val2;
+    int mval,val1,val2,val3;
     QPushButton* dep;
     bool aiflag;
     bool isaimove;
     int ov;
     int fillnum[6];
     bool ispass2[17][17];
+    QLabel *pointpath[6][20];
 
 public:
     //myDialog dd;
@@ -134,7 +135,10 @@ public:
     bool isPlaceLegal(int x,int y);
     void ai();
     void dfs(int,int,int,int,int);
-    int PossibleValue(int,int,int,int,int,int,int);
+
+    int PossibleValue1(int,int,int,int,int,int,int);
+    int PossibleValue2(int,int,int,int,int,int,int);
+
     float guessvalue1(int,int,int);
     float guessvalue2(int x1,int y1,int x2,int y2);
     int guessvalue3(int,int,int,int);
@@ -143,12 +147,18 @@ public:
     int fillvalue(int);
     int fillvalueplus(int);
     int lonelypointvalue(int);
+
+    int oa,ob,obx,oby;
     int morestepvalue(int);
+
      void dfsplus(int t,int k,int x,int y,int bx,int by);
+
     inline int distance(QPointF,QPointF);
     bool islonely(int,int);
-
     bool guessvalue4(int x,int y);
+    float longdistancefirst(int,int,int);
+   // void drawpath();
+    int stepvalue(int,int,int);
 
 
 private:
