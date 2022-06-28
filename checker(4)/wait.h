@@ -26,6 +26,7 @@ public:
     QLabel *sis[6];
     QPushButton* rea;
     QPushButton *exi;
+    QLabel *ro;
 
 private slots:
    void qqq();
