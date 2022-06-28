@@ -590,6 +590,7 @@ void ClientWindow::receive(NetworkData data){
             if(playerState.at(i))
                 ww.sis[i]->setText("ready");
         }
+            ww.ro->setText(RoomID);
         cc.hide();
         ww.show();
         }
