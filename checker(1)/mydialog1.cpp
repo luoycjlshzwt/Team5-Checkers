@@ -25,7 +25,7 @@ mydialog1::mydialog1(QWidget *parent):QDialog(parent)
     forsure=new QLabel(this);
     forsure->move(50,100);
     forsure->setText("Are you sure you want to leave?");
-    forsure->setStyleSheet("QLabel {color:blue;font:bold 25px;}");
+    forsure->setStyleSheet("QLabel{color:blue;font:bold 25px;}");
 
     leav=new QPushButton(this);
     leav->move(130,180);

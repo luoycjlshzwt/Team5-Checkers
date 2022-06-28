@@ -8,7 +8,7 @@ class QLabel;
 
 class mydialog1:public QDialog
 {
-    Q_OBJECT;
+    Q_OBJECT
 public:
     explicit mydialog1(QWidget *parent=0);
     bool Quit() const

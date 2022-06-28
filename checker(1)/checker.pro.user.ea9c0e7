@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-04-04T19:01:50. -->
+<!-- Written by QtCreator 6.0.2, 2022-05-02T12:15:26. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -94,8 +94,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\QtDemo\checker</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/QtDemo/checker</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\AiRAM\Team5Checker\checker(1)</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/AiRAM/Team5Checker/checker(1)</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -133,8 +133,8 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\AiRAM\Documents\WeChat Files\wxid_wzzn4tcgj7dy22\FileStorage\File\2022-03\checker(1)\Error-in-&quot;-Util.asciify(&quot;build-C:\Users\AiRAM\Documents\WeChat-Files\wxid_wzzn4tcgj7dy22\FileStorage\File\2022-03\checker(1)\checker\checker-Desktop_Qt_6_2_3_MinGW_64_bit-Release&quot;)&quot;:-SyntaxError:-Expected-token-`)'</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/AiRAM/Documents/WeChat Files/wxid_wzzn4tcgj7dy22/FileStorage/File/2022-03/checker(1)/Error-in-&quot;-Util.asciify(&quot;build-C:/Users/AiRAM/Documents/WeChat-Files/wxid_wzzn4tcgj7dy22/FileStorage/File/2022-03/checker(1)/checker/checker-Desktop_Qt_6_2_3_MinGW_64_bit-Release&quot;)&quot;:-SyntaxError:-Expected-token-`)'</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\AiRAM\Team5Checker\build-C:UsersAiRAMTeam5Checkerchecker(1)checker-Desktop_Qt_6_2_3_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/AiRAM/Team5Checker/build-C:UsersAiRAMTeam5Checkerchecker(1)checker-Desktop_Qt_6_2_3_MinGW_64_bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -174,8 +174,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\AiRAM\Documents\WeChat Files\wxid_wzzn4tcgj7dy22\FileStorage\File\2022-03\checker(1)\Error-in-&quot;-Util.asciify(&quot;build-C:\Users\AiRAM\Documents\WeChat-Files\wxid_wzzn4tcgj7dy22\FileStorage\File\2022-03\checker(1)\checker\checker-Desktop_Qt_6_2_3_MinGW_64_bit-Profile&quot;)&quot;:-SyntaxError:-Expected-token-`)'</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/AiRAM/Documents/WeChat Files/wxid_wzzn4tcgj7dy22/FileStorage/File/2022-03/checker(1)/Error-in-&quot;-Util.asciify(&quot;build-C:/Users/AiRAM/Documents/WeChat-Files/wxid_wzzn4tcgj7dy22/FileStorage/File/2022-03/checker(1)/checker/checker-Desktop_Qt_6_2_3_MinGW_64_bit-Profile&quot;)&quot;:-SyntaxError:-Expected-token-`)'</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\AiRAM\Team5Checker\build-C:UsersAiRAMTeam5Checkerchecker(1)checker-Desktop_Qt_6_2_3_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Users/AiRAM/Team5Checker/build-C:UsersAiRAMTeam5Checkerchecker(1)checker-Desktop_Qt_6_2_3_MinGW_64_bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -235,15 +235,14 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">checker2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/AiRAM/Team5Checker/qtcode/checker.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/AiRAM/Team5Checker/qtcode/checker.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/AiRAM/Team5Checker/checker(1)/checker.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/AiRAM/Team5Checker/checker(1)/checker.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/QtDemo/checker</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/AiRAM/Team5Checker/checker(1)</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

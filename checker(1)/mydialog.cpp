@@ -1,17 +1,18 @@
+//.cpp
 #include"mydialog.h"
+#include"widget.h"
 #include<QPushButton>
 
 myDialog::myDialog(QWidget *parent, Qt::WindowFlags f)
     :QDialog(parent, f)
 {
-    setMinimumSize(300, 300);
-    setMaximumSize(500, 500);
+    setFixedSize(550, 550);
     /*pix = new QLabel;
     pix->setScaledContents(true);
     pix->setPixmap(QPixmap(":/image/map.png"));
     pix->setFixedSize(600, 600);*/
-    an = new QPushButton("");
-    an->setMinimumSize(450, 500);
+    an = new QPushButton(this);
+    an->setMinimumSize(400, 500);
     an->setFlat(true);
     an->setIconSize(QSize(600, 600));
     an->setIcon(QIcon(":/image/background.png"));
@@ -36,13 +37,7 @@ myDialog::myDialog(QWidget *parent, Qt::WindowFlags f)
     join = new QPushButton("START");
     quit = new QPushButton("EXIT");
 
-    /*login->setStyleSheet("background-color:rgb(255,255,255");   设计窗口外观
-    login->setStyleSheet("color:green");
-    login->setStyleSheet("font:bold 20px");*/
     join->setStyleSheet("QPushButton {border: 0px solid #dadbde;border-radius: 5px;background-color: rgb(255,255,255);color:green;font:bold 25px;}");
-    /*quit->setStyleSheet("background-color:rgb(255,255,255");
-    quit->setStyleSheet("color:black");
-    quit->setStyleSheet("font:bold 20px");*/
     quit->setStyleSheet("QPushButton {border: 0px solid #dadbde;border-radius: 5px;background-color:  rgb(255,255,255);color:black;font:bold 25px;}");
 
     QVBoxLayout *vbox = new QVBoxLayout;
@@ -54,8 +49,53 @@ myDialog::myDialog(QWidget *parent, Qt::WindowFlags f)
     connect(quit, SIGNAL(clicked(bool)), this, SLOT(close()));  //不加入游戏
     connect(join, &QPushButton::clicked, [&]()  //加入游戏并关闭开始窗口
     {
+        if(settype->currentIndex()!=-1&&PORTS->text()!="请输入端口号..."&&IPS->text()!="请输入IP地址..."){
+                    port=PORTS->text();
+                    ip=IPS->text();
             joinSuccessed = true;
-            close();
+            hide();
+        }
     });
-}
 
+    /*setplayer = new QComboBox(this);
+    setplayer->setPlaceholderText(QStringLiteral("请选择玩家人数"));
+    setplayer->setCurrentIndex(-1);
+    setplayer->addItem("2");
+    setplayer->addItem("3");
+    setplayer->addItem("6");
+    setplayer->setGeometry(180,325,150,30);*/
+
+    settype=new QComboBox(this);
+    settype->setPlaceholderText(QStringLiteral("请选择..."));
+    settype->setCurrentIndex(-1);
+    settype->addItem("Client");
+    settype->addItem("Server");
+    settype->setGeometry(180,355,150,30);
+
+    PORT=new QLabel(this);
+    PORT->move(178,413);
+    PORT->setText("Port");
+    PORT->setStyleSheet("QLabel{color:white;font:bold 12px;}");
+
+    IP=new QLabel(this);
+    IP->move(178,385);
+    IP->setText("IP");
+    IP->setStyleSheet("QLabel{color:white;font:bold 12px;}");
+
+    QRegularExpression rx3;
+    rx3.setPattern("[0-9.]{7,15}");
+    QValidator *validator3 = new QRegularExpressionValidator(rx3,this);
+    IPS=new QLineEdit(this);
+    IPS->move(205,385);
+    IPS->setPlaceholderText("请输入IP地址...");
+    IPS->setStyleSheet("QLineEdit{color:black;font:11px}");
+    IPS->setValidator(validator3);
+
+    QValidator *validator=new QIntValidator(1024, 49151, this);
+    PORTS=new QLineEdit(this);
+    PORTS->move(205,413);
+    PORTS->setPlaceholderText("请输入端口号...");
+    PORTS->setStyleSheet("QLineEdit{color:black;font:11px}");
+    PORTS->setValidator(validator);
+
+}
