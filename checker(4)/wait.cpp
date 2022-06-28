@@ -16,6 +16,8 @@ Wait::Wait(QWidget *parent) :
 
     rea = ui->YES;
     exi=ui->EXIT;
+        ro=new QLabel(this);
+        ro->setGeometry(125,40,35,20);
 
     for(int i=0;i<6;i++)
     {
